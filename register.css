@@ -1,4 +1,4 @@
-top-wrapper{
+.top-wrapper{
     width: 100%;
 }
 
@@ -80,6 +80,10 @@ input{
     color: #b2b2b2;
 }
 
+a{
+    color: rgb(0, 126, 210);
+    text-decoration: none;
+}
 
 a:hover {
     text-decoration: underline;
@@ -89,7 +93,24 @@ a:visited {
     color: rgb(0, 126, 210);
 }
 
+.result-comment1{
+    text-align: center;
+    font-size: 25px;
+}
 
+.result-comment2{
+    text-align: center;
+}
+
+.result-comment1>p{
+    margin: 0 0;
+    padding-top: 90px;
+}
+
+.result-comment2>p{
+    padding: 50px;
+    
+}
 
 .button{
     display: block;
